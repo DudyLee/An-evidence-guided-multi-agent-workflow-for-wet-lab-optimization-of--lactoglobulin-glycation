@@ -1,0 +1,2 @@
+﻿dataset,source_file,source_sheet,source_cells,source_label,donor,time_h,temperature_C,ultrasound,mode,aw,binding_capacity_mean,reduction_pct_vs_native,error_pct,use_in_manuscript,note
+final ribose validation,2026.3.19-单糖二糖-糖基化-数据整理.xlsx,Sheet1,K3:N3,核糖4h,ribose,4,60,+US,dry,0.79,1.432154,85.6,1.7,Fig. 3c validation point; candidate Supplementary Fig. 1 annotation,Standalone post-recommendation validation point for the final ribose condition.

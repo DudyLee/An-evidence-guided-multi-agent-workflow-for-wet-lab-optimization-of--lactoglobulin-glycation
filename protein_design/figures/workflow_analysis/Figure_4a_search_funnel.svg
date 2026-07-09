@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="430" viewBox="0 0 1600 430">
+<title>Stage-wise narrowing of the experimental search space</title>
+<rect width="1600" height="430" fill="#FFFFFF"/>
+<text x="18.00" y="40.00" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="30.00" font-weight="700" fill="#202124">a</text>
+<text x="800.00" y="42.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="30.00" font-weight="700" fill="#202124">Stage-wise narrowing of the experimental search space</text>
+<polygon points="42.00,119.00 228.71,119.00 245.71,230.00 228.71,341.00 42.00,341.00 42.00,230.00" fill="#EAF3FF" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="143.86" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Literature-visible</text>
+<text x="143.86" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">envelope</text>
+<text x="143.86" y="243.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Semantically grouped</text>
+<text x="143.86" y="262.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">variable levels</text>
+<text x="143.86" y="369.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">~1.12 million plausible combinations</text>
+<polygon points="260.71,129.00 447.43,129.00 464.43,230.00 447.43,331.00 260.71,331.00 277.71,230.00" fill="#DDE7F5" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="362.57" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Study-feasible</text>
+<text x="362.57" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">envelope</text>
+<text x="362.57" y="243.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Scope and feasibility</text>
+<text x="362.57" y="262.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">constraints</text>
+<polygon points="479.43,138.00 666.14,138.00 683.14,230.00 666.14,322.00 479.43,322.00 496.43,230.00" fill="#F7F9FC" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="581.29" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Project-specified</text>
+<text x="581.29" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">candidates</text>
+<text x="581.29" y="243.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">High-value scientific</text>
+<text x="581.29" y="262.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">questions</text>
+<polygon points="698.14,147.00 884.86,147.00 901.86,230.00 884.86,313.00 698.14,313.00 715.14,230.00" fill="#EAF3FF" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="800.00" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Operational</text>
+<text x="800.00" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">decision space</text>
+<text x="800.00" y="253.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Matched comparisons</text>
+<polygon points="916.86,156.00 1103.57,156.00 1120.57,230.00 1103.57,304.00 916.86,304.00 933.86,230.00" fill="#DCEAD4" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="1018.71" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Execution-ready</text>
+<text x="1018.71" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">matrix</text>
+<text x="1018.71" y="253.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Completeness audit</text>
+<text x="1018.71" y="332.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">24 planned / 24 result-bearing</text>
+<polygon points="1135.57,165.00 1322.29,165.00 1339.29,230.00 1322.29,295.00 1135.57,295.00 1152.57,230.00" fill="#CFE2C8" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="1237.43" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Comparator-aware</text>
+<text x="1237.43" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">refinement</text>
+<text x="1237.43" y="253.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Focused adjudication</text>
+<polygon points="1354.29,174.00 1541.00,174.00 1558.00,230.00 1541.00,286.00 1354.29,286.00 1371.29,230.00" fill="#DDE7F5" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="1456.14" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Final validation</text>
+<text x="1456.14" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">candidate</text>
+<text x="1456.14" y="243.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Locked</text>
+<text x="1456.14" y="262.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">recommendation</text>
+<text x="1456.14" y="314.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">1 candidate</text>
+<text x="800.00" y="394.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Conceptual stages; widths are not proportional to candidate counts.</text>
+</svg>

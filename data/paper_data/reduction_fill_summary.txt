@@ -1,0 +1,40 @@
+ORIG: data\paper_data\Paper_run_data.jsonl
+COMPUTED: data\paper_data\Paper_run_data.computed.jsonl
+TOTAL: 350
+FILLED_NEW_NUMERIC: 86
+COMPUTED_STILL_NULL: 196
+
+FILLED_BY_UNIT (top 10)
+  μg/mL: 76
+  %: 6
+  ng/mL: 3
+  % (responders): 1
+
+FILLED_BY_METRIC (top 10)
+  α-LA antigenicity: 24
+  β-LG antigenicity: 24
+  IgG IC50: 14
+  Antigenicity: 5
+  IgE IC50: 5
+  IgG binding rate: 5
+  IgG binding capacity IC50: 4
+  IgE content: 3
+  IgE responder frequency: 1
+  β-hexosaminidase release: 1
+
+FILLED_BY_PAPER (top 10)
+  Li_2011: 48
+  Shao_2021: 8
+  Shao_2020: 6
+  Yang_2017: 6
+  Zhong_2014: 5
+  Chen_2025: 4
+  Yu_2024: 4
+  Tao_2023: 3
+  Almond_2013: 1
+  Wang_2021: 1
+
+STILL_NULL_REASONS
+  missing_treated_value: 133
+  missing_control_value_and_no_comparator: 37
+  missing_control_value_and_comparator_lookup_failed: 26

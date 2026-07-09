@@ -1,0 +1,8 @@
+dimension,structured_evidence_fields,raw_levels,grouped_levels,grouping_rule,calculation_role
+donor_branch,sugar,32,19,"Synonymous donor labels, spelling variants and donor subclasses were collapsed into donor branches; examples include D-ribose/ribose, maltose/maltose (Mal), galactose/galactose (Gal), galacto-oligosaccharide variants and dextran molecular-weight variants.",factor
+reaction_time_window,time_h,27,11,"Numeric reaction times reported in hours were grouped into reaction windows to avoid treating nearby or paper-specific time settings as independent design axes.",factor
+temperature_band,temperature_C,23,7,"Numeric temperatures were grouped into processing bands spanning low-temperature, moderate dry-glycation and high-severity regions.",factor
+pretreatment_family,pretreatment_used;pretreatment_method,10 method labels,8,"Pretreatment labels were grouped by process family, with untreated/no-pretreatment records retained as a separate state and closely related labels merged.",factor
+protein_sugar_ratio_band,protein_sugar_ratio,32,8,"Ratio strings reported in different units or notations were grouped into comparable ratio bands rather than counted as separate raw text labels.",factor
+environment_control_state,pH_or_aw,18,12,"pH, relative-humidity and water-activity entries were grouped as environment-control states while preserving whether the source described solution pH, RH or aw.",factor
+product,,,"1,123,584","19 x 11 x 7 x 8 x 8 x 12 = 1,123,584; conceptual literature-derived upper bound, not a count of planned, feasible or executed experiments.",product

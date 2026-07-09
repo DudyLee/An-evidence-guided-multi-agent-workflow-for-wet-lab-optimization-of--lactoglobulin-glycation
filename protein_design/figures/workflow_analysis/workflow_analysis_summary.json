@@ -1,0 +1,60 @@
+{
+  "phase_counts": {
+    "team_selection": {
+      "Human Researcher": 588,
+      "Principal Investigator": 3134,
+      "Maillard Reaction Chemistry and Process Scientist": 0,
+      "Allergenicity and Immunoassay Interpretation Scientist": 0,
+      "Experimental Design and Evidence Synthesis Scientist": 0,
+      "Scientific Critic": 0
+    },
+    "project_specification": {
+      "Human Researcher": 501,
+      "Principal Investigator": 62448,
+      "Maillard Reaction Chemistry and Process Scientist": 15338,
+      "Allergenicity and Immunoassay Interpretation Scientist": 22702,
+      "Experimental Design and Evidence Synthesis Scientist": 20062,
+      "Scientific Critic": 7362
+    },
+    "tools_selection": {
+      "Human Researcher": 241,
+      "Principal Investigator": 55504,
+      "Maillard Reaction Chemistry and Process Scientist": 18160,
+      "Allergenicity and Immunoassay Interpretation Scientist": 21972,
+      "Experimental Design and Evidence Synthesis Scientist": 19416,
+      "Scientific Critic": 10048
+    },
+    "execution_planning": {
+      "Human Researcher": 553,
+      "Principal Investigator": 76430,
+      "Maillard Reaction Chemistry and Process Scientist": 16212,
+      "Allergenicity and Immunoassay Interpretation Scientist": 18306,
+      "Experimental Design and Evidence Synthesis Scientist": 24200,
+      "Scientific Critic": 12156
+    },
+    "iteration1_discussion": {
+      "Human Researcher": 263,
+      "Principal Investigator": 49190,
+      "Maillard Reaction Chemistry and Process Scientist": 16202,
+      "Allergenicity and Immunoassay Interpretation Scientist": 22826,
+      "Experimental Design and Evidence Synthesis Scientist": 29474,
+      "Scientific Critic": 8164
+    }
+  },
+  "contributor_totals": {
+    "Human Researcher": 2146,
+    "Principal Investigator": 246706,
+    "Maillard Reaction Chemistry and Process Scientist": 65912,
+    "Allergenicity and Immunoassay Interpretation Scientist": 85806,
+    "Experimental Design and Evidence Synthesis Scientist": 93152,
+    "Scientific Critic": 37730
+  },
+  "human_total": 2146,
+  "agent_total": 529306,
+  "highlight_percentages": {
+    "project_specification_pi": 48.630590360789014,
+    "tools_selection_pi": 44.282397619294564,
+    "execution_planning_pi": 51.69183738341776,
+    "iteration1_experimental_design": 23.36999183311
+  }
+}

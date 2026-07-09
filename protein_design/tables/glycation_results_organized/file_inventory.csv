@@ -1,0 +1,10 @@
+﻿file_name,file_path,size_bytes,last_modified,sheet_count,sheet_names,interpreted_role
+2025.12.12 β-Lg-IgG-U-阿拉伯糖-糖基化-数据处理完整版.xlsx,data/raw_wetlab_workbooks/2025.12.12 β-Lg-IgG-U-阿拉伯糖-糖基化-数据处理完整版.xlsx,47082,2025-12-15 21:26:03,4,OD; 标曲; 数据处理; 数据选择,arabinose-focused supporting workbook
+2026.1.21 β-Lg-糖基化-致敏.xlsx,data/raw_wetlab_workbooks/2026.1.21 β-Lg-糖基化-致敏.xlsx,53318,2026-01-23 15:47:23,4,原始数据; 标曲; 数据处理; 数据整理,2 h dry glycation benchmark/pentose support used in the run matrix
+2026.3.19-单糖二糖-糖基化-数据整理.xlsx,data/raw_wetlab_workbooks/2026.3.19-单糖二糖-糖基化-数据整理.xlsx,24527,2026-04-29 00:02:33,1,Sheet1,long donor-time ultrasound/no-ultrasound panel and ribose 4 h validation point
+2026.3.20-RPBG-4h-糖基化.xlsx,data/raw_wetlab_workbooks/2026.3.20-RPBG-4h-糖基化.xlsx,51472,2026-03-21 22:27:15,4,原始数据; 标曲; 数据处理; 挑选,4 h hexose bridge and no-sugar controls for Fig. 3a/3b
+ELISA-2026.6.15.xlsx,data/raw_wetlab_workbooks/ELISA-2026.6.15.xlsx,17634,2026-06-16 19:59:56,1,Sheet1,"supplemental ELISA records completing R09-R12, R19 and no-sugar controls"
+filled_run_mapping_results.xlsx,data/raw_wetlab_workbooks/filled_run_mapping_results.xlsx,13122,2026-03-22 19:29:02,3,Filled_Run_Matrix; Coverage_Summary; Source_Extracts,historical run-mapping workbook; superseded by current 24-run matrix
+filled_run_mapping_results_v2.xlsx,data/raw_wetlab_workbooks/filled_run_mapping_results_v2.xlsx,15902,2026-03-22 19:49:34,4,Filled_Run_Matrix; Coverage_Summary; Source_Extracts; Additional_Supplement,historical run-mapping workbook; superseded by current 24-run matrix
+filled_run_mapping_results_v3.xlsx,data/raw_wetlab_workbooks/filled_run_mapping_results_v3.xlsx,17138,2026-03-23 09:49:48,5,Abbreviation_Legend; Filled_Run_Matrix; Coverage_Summary; Source_Extracts; Additional_Supplement,historical run-mapping workbook; superseded by current 24-run matrix
+

@@ -1,0 +1,12 @@
+notebook
+openai
+requests
+tiktoken
+tqdm
+typed-argument-parser
+pandas
+matplotlib
+seaborn
+pillow
+reportlab
+openpyxl

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1090" viewBox="0 0 1600 1090">
+<title>Workflow efficiency and human-agent collaboration</title>
+<rect width="1600" height="1090" fill="#FFFFFF"/>
+<text x="18.00" y="40.00" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="30.00" font-weight="700" fill="#202124">a</text>
+<text x="800.00" y="42.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="30.00" font-weight="700" fill="#202124">Stage-wise narrowing of the experimental search space</text>
+<polygon points="42.00,119.00 228.71,119.00 245.71,230.00 228.71,341.00 42.00,341.00 42.00,230.00" fill="#EAF3FF" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="143.86" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Literature-visible</text>
+<text x="143.86" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">envelope</text>
+<text x="143.86" y="243.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Semantically grouped</text>
+<text x="143.86" y="262.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">variable levels</text>
+<text x="143.86" y="369.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">~1.12 million plausible combinations</text>
+<polygon points="260.71,129.00 447.43,129.00 464.43,230.00 447.43,331.00 260.71,331.00 277.71,230.00" fill="#DDE7F5" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="362.57" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Study-feasible</text>
+<text x="362.57" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">envelope</text>
+<text x="362.57" y="243.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Scope and feasibility</text>
+<text x="362.57" y="262.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">constraints</text>
+<polygon points="479.43,138.00 666.14,138.00 683.14,230.00 666.14,322.00 479.43,322.00 496.43,230.00" fill="#F7F9FC" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="581.29" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Project-specified</text>
+<text x="581.29" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">candidates</text>
+<text x="581.29" y="243.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">High-value scientific</text>
+<text x="581.29" y="262.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">questions</text>
+<polygon points="698.14,147.00 884.86,147.00 901.86,230.00 884.86,313.00 698.14,313.00 715.14,230.00" fill="#EAF3FF" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="800.00" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Operational</text>
+<text x="800.00" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">decision space</text>
+<text x="800.00" y="253.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Matched comparisons</text>
+<polygon points="916.86,156.00 1103.57,156.00 1120.57,230.00 1103.57,304.00 916.86,304.00 933.86,230.00" fill="#DCEAD4" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="1018.71" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Execution-ready</text>
+<text x="1018.71" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">matrix</text>
+<text x="1018.71" y="253.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Completeness audit</text>
+<text x="1018.71" y="332.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">24 planned / 24 result-bearing</text>
+<polygon points="1135.57,165.00 1322.29,165.00 1339.29,230.00 1322.29,295.00 1135.57,295.00 1152.57,230.00" fill="#CFE2C8" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="1237.43" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Comparator-aware</text>
+<text x="1237.43" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">refinement</text>
+<text x="1237.43" y="253.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Focused adjudication</text>
+<polygon points="1354.29,174.00 1541.00,174.00 1558.00,230.00 1541.00,286.00 1354.29,286.00 1371.29,230.00" fill="#DDE7F5" stroke="#FFFFFF" stroke-width="2.00"/>
+<text x="1456.14" y="188.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">Final validation</text>
+<text x="1456.14" y="209.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="18.00" font-weight="700" fill="#202124">candidate</text>
+<text x="1456.14" y="243.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Locked</text>
+<text x="1456.14" y="262.50" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">recommendation</text>
+<text x="1456.14" y="314.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">1 candidate</text>
+<text x="800.00" y="394.00" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#5F6368">Conceptual stages; widths are not proportional to candidate counts.</text>
+<text x="16.00" y="469.60" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="26.67" font-weight="700" fill="#202124">b</text>
+<text x="400.00" y="469.60" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="26.67" font-weight="700" fill="#202124">Role composition across workflow phases</text>
+<line x1="222.22" y1="531.83" x2="222.22" y2="892.00" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="222.22" y="917.46" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">0</text>
+<line x1="357.78" y1="531.83" x2="357.78" y2="892.00" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="357.78" y="917.46" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">25</text>
+<line x1="493.33" y1="531.83" x2="493.33" y2="892.00" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="493.33" y="917.46" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">50</text>
+<line x1="628.89" y1="531.83" x2="628.89" y2="892.00" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="628.89" y="917.46" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">75</text>
+<line x1="764.44" y1="531.83" x2="764.44" y2="892.00" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="764.44" y="917.46" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">100</text>
+<text x="207.11" y="556.34" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Team selection</text>
+<rect x="222.22" y="531.83" width="85.66" height="49.03" rx="0.00" fill="#4E7D3A"/>
+<text x="265.05" y="556.34" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">15.8%</text>
+<rect x="307.88" y="531.83" width="456.56" height="49.03" rx="0.00" fill="#143E7D"/>
+<text x="536.16" y="556.34" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">84.2%</text>
+<line x1="222.22" y1="531.83" x2="764.44" y2="531.83" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="580.86" x2="764.44" y2="580.86" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="531.83" x2="222.22" y2="580.86" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="764.44" y1="531.83" x2="764.44" y2="580.86" stroke="#A8ADB5" stroke-width="0.89"/>
+<text x="207.11" y="626.11" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Project specification</text>
+<rect x="222.22" y="601.60" width="2.12" height="49.03" rx="0.00" fill="#4E7D3A"/>
+<line x1="223.56" y1="602.54" x2="223.56" y2="594.06" stroke="#4E7D3A" stroke-width="1.33"/>
+<text x="228.00" y="591.23" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.44" font-weight="700" fill="#4E7D3A">0.4%</text>
+<rect x="224.34" y="601.60" width="263.69" height="49.03" rx="0.00" fill="#143E7D"/>
+<text x="356.18" y="626.11" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">48.6%</text>
+<rect x="488.02" y="601.60" width="64.76" height="49.03" rx="0.00" fill="#2F69B1"/>
+<text x="520.41" y="626.11" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">11.9%</text>
+<rect x="552.79" y="601.60" width="95.86" height="49.03" rx="0.00" fill="#49C2D9"/>
+<text x="600.72" y="626.11" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">17.7%</text>
+<rect x="648.65" y="601.60" width="84.71" height="49.03" rx="0.00" fill="#6F9E5A"/>
+<text x="691.00" y="626.11" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">15.6%</text>
+<rect x="733.36" y="601.60" width="31.09" height="49.03" rx="0.00" fill="#A8ADB5"/>
+<text x="748.90" y="626.11" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.44" font-weight="700" fill="#202124">5.7%</text>
+<line x1="222.22" y1="601.60" x2="764.44" y2="601.60" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="650.63" x2="764.44" y2="650.63" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="601.60" x2="222.22" y2="650.63" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="764.44" y1="601.60" x2="764.44" y2="650.63" stroke="#A8ADB5" stroke-width="0.89"/>
+<text x="207.11" y="695.89" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Tools selection</text>
+<rect x="222.22" y="671.37" width="1.04" height="49.03" rx="0.00" fill="#4E7D3A"/>
+<line x1="223.56" y1="672.31" x2="223.56" y2="663.83" stroke="#4E7D3A" stroke-width="1.33"/>
+<text x="228.00" y="661.00" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.44" font-weight="700" fill="#4E7D3A">0.2%</text>
+<rect x="223.26" y="671.37" width="240.11" height="49.03" rx="0.00" fill="#143E7D"/>
+<text x="343.32" y="695.89" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">44.3%</text>
+<rect x="463.37" y="671.37" width="78.56" height="49.03" rx="0.00" fill="#2F69B1"/>
+<text x="502.65" y="695.89" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">14.5%</text>
+<rect x="541.93" y="671.37" width="95.05" height="49.03" rx="0.00" fill="#49C2D9"/>
+<text x="589.46" y="695.89" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">17.5%</text>
+<rect x="636.98" y="671.37" width="83.99" height="49.03" rx="0.00" fill="#6F9E5A"/>
+<text x="678.98" y="695.89" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">15.5%</text>
+<rect x="720.98" y="671.37" width="43.47" height="49.03" rx="0.00" fill="#A8ADB5"/>
+<text x="742.71" y="695.89" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.44" font-weight="700" fill="#202124">8.0%</text>
+<line x1="222.22" y1="671.37" x2="764.44" y2="671.37" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="720.40" x2="764.44" y2="720.40" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="671.37" x2="222.22" y2="720.40" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="764.44" y1="671.37" x2="764.44" y2="720.40" stroke="#A8ADB5" stroke-width="0.89"/>
+<text x="207.11" y="765.66" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Execution planning</text>
+<rect x="222.22" y="741.14" width="2.03" height="49.03" rx="0.00" fill="#4E7D3A"/>
+<line x1="223.56" y1="742.09" x2="223.56" y2="733.60" stroke="#4E7D3A" stroke-width="1.33"/>
+<text x="228.00" y="730.77" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.44" font-weight="700" fill="#4E7D3A">0.4%</text>
+<rect x="224.25" y="741.14" width="280.28" height="49.03" rx="0.00" fill="#143E7D"/>
+<text x="364.39" y="765.66" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">51.7%</text>
+<rect x="504.53" y="741.14" width="59.45" height="49.03" rx="0.00" fill="#2F69B1"/>
+<text x="534.26" y="765.66" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">11.0%</text>
+<rect x="563.99" y="741.14" width="67.13" height="49.03" rx="0.00" fill="#49C2D9"/>
+<text x="597.55" y="765.66" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">12.4%</text>
+<rect x="631.12" y="741.14" width="88.75" height="49.03" rx="0.00" fill="#6F9E5A"/>
+<text x="675.49" y="765.66" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">16.4%</text>
+<rect x="719.87" y="741.14" width="44.58" height="49.03" rx="0.00" fill="#A8ADB5"/>
+<text x="742.16" y="765.66" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.44" font-weight="700" fill="#202124">8.2%</text>
+<line x1="222.22" y1="741.14" x2="764.44" y2="741.14" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="790.17" x2="764.44" y2="790.17" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="741.14" x2="222.22" y2="790.17" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="764.44" y1="741.14" x2="764.44" y2="790.17" stroke="#A8ADB5" stroke-width="0.89"/>
+<text x="207.11" y="835.43" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">First iteration</text>
+<rect x="222.22" y="810.91" width="1.13" height="49.03" rx="0.00" fill="#4E7D3A"/>
+<line x1="223.56" y1="811.86" x2="223.56" y2="803.37" stroke="#4E7D3A" stroke-width="1.33"/>
+<text x="228.00" y="800.54" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.44" font-weight="700" fill="#4E7D3A">0.2%</text>
+<rect x="223.35" y="810.91" width="211.48" height="49.03" rx="0.00" fill="#143E7D"/>
+<text x="329.09" y="835.43" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">39.0%</text>
+<rect x="434.84" y="810.91" width="69.66" height="49.03" rx="0.00" fill="#2F69B1"/>
+<text x="469.66" y="835.43" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">12.8%</text>
+<rect x="504.49" y="810.91" width="98.14" height="49.03" rx="0.00" fill="#49C2D9"/>
+<text x="553.56" y="835.43" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#202124">18.1%</text>
+<rect x="602.63" y="810.91" width="126.72" height="49.03" rx="0.00" fill="#6F9E5A"/>
+<text x="665.99" y="835.43" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="700" fill="#FFFFFF">23.4%</text>
+<rect x="729.35" y="810.91" width="35.10" height="49.03" rx="0.00" fill="#A8ADB5"/>
+<text x="746.89" y="835.43" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.44" font-weight="700" fill="#202124">6.5%</text>
+<line x1="222.22" y1="810.91" x2="764.44" y2="810.91" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="859.94" x2="764.44" y2="859.94" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="222.22" y1="810.91" x2="222.22" y2="859.94" stroke="#A8ADB5" stroke-width="0.89"/>
+<line x1="764.44" y1="810.91" x2="764.44" y2="859.94" stroke="#A8ADB5" stroke-width="0.89"/>
+<text x="493.33" y="947.63" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Share of words within phase (%)</text>
+<rect x="71.11" y="977.80" width="23.11" height="20.74" rx="0.00" fill="#4E7D3A"/>
+<text x="104.00" y="988.17" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#202124">Human researcher</text>
+<rect x="324.44" y="977.80" width="23.11" height="20.74" rx="0.00" fill="#143E7D"/>
+<text x="357.33" y="988.17" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#202124">Principal investigator</text>
+<rect x="577.78" y="977.80" width="23.11" height="20.74" rx="0.00" fill="#2F69B1"/>
+<text x="610.67" y="988.17" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#202124">Maillard chemistry</text>
+<rect x="71.11" y="1020.23" width="23.11" height="20.74" rx="0.00" fill="#49C2D9"/>
+<text x="104.00" y="1030.60" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#202124">Allergenicity</text>
+<rect x="324.44" y="1020.23" width="23.11" height="20.74" rx="0.00" fill="#6F9E5A"/>
+<text x="357.33" y="1030.60" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#202124">Experimental design</text>
+<rect x="577.78" y="1020.23" width="23.11" height="20.74" rx="0.00" fill="#A8ADB5"/>
+<text x="610.67" y="1030.60" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.00" font-weight="400" fill="#202124">Scientific critic</text>
+<text x="816.00" y="469.60" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="26.67" font-weight="700" fill="#202124">c</text>
+<text x="1200.00" y="469.60" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="26.67" font-weight="700" fill="#202124">Cumulative discussion contribution</text>
+<text x="1200.00" y="505.43" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.89" font-weight="400" fill="#5F6368">All agents: 529.3k words   |   Human: 2.1k words</text>
+<line x1="1026.67" y1="540.31" x2="1026.67" y2="962.71" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="1026.67" y="988.17" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">0</text>
+<line x1="1124.61" y1="540.31" x2="1124.61" y2="962.71" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="1124.61" y="988.17" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">50</text>
+<line x1="1222.55" y1="540.31" x2="1222.55" y2="962.71" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="1222.55" y="988.17" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">100</text>
+<line x1="1320.49" y1="540.31" x2="1320.49" y2="962.71" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="1320.49" y="988.17" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">150</text>
+<line x1="1418.44" y1="540.31" x2="1418.44" y2="962.71" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="1418.44" y="988.17" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">200</text>
+<line x1="1516.38" y1="540.31" x2="1516.38" y2="962.71" stroke="#DDE7F5" stroke-width="1.33"/>
+<text x="1516.38" y="988.17" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#5F6368">250</text>
+<text x="1011.56" y="560.59" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Principal investigator</text>
+<rect x="1026.67" y="540.31" width="483.26" height="40.54" rx="0.00" fill="#143E7D"/>
+<text x="1520.59" y="560.59" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.89" font-weight="700" fill="#202124">246.7k</text>
+<text x="1011.56" y="624.70" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Experimental design</text>
+<rect x="1026.67" y="604.43" width="182.47" height="40.54" rx="0.00" fill="#6F9E5A"/>
+<text x="1219.80" y="624.70" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.89" font-weight="700" fill="#202124">93.2k</text>
+<text x="1011.56" y="688.81" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Allergenicity</text>
+<rect x="1026.67" y="668.54" width="168.08" height="40.54" rx="0.00" fill="#49C2D9"/>
+<text x="1205.41" y="688.81" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.89" font-weight="700" fill="#202124">85.8k</text>
+<text x="1011.56" y="752.93" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Maillard chemistry</text>
+<rect x="1026.67" y="732.66" width="129.11" height="40.54" rx="0.00" fill="#2F69B1"/>
+<text x="1166.44" y="752.93" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.89" font-weight="700" fill="#202124">65.9k</text>
+<text x="1011.56" y="817.04" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Scientific critic</text>
+<rect x="1026.67" y="796.77" width="73.91" height="40.54" rx="0.00" fill="#A8ADB5"/>
+<text x="1111.24" y="817.04" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.89" font-weight="700" fill="#202124">37.7k</text>
+<text x="1011.56" y="881.16" text-anchor="end" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Human researcher</text>
+<rect x="1026.67" y="860.89" width="4.20" height="40.54" rx="0.00" fill="#4E7D3A"/>
+<circle cx="1030.87" cy="881.16" r="5.33" fill="#4E7D3A"/>
+<text x="1041.54" y="881.16" text-anchor="start" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="16.89" font-weight="700" fill="#202124">2.1k</text>
+<text x="1291.11" y="1018.34" text-anchor="middle" dominant-baseline="middle" font-family="Helvetica, Arial, sans-serif" font-size="17.78" font-weight="400" fill="#202124">Total words (thousands)</text>
+</svg>

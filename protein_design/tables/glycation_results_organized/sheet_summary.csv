@@ -1,0 +1,27 @@
+﻿file_name,sheet_name,max_row,max_column,nonempty_rows,nonempty_cells,3h,4h,6h,9h,12h,18h,24h,US_or_ultrasound,ribose,glucose,arabinose
+2025.12.12 β-Lg-IgG-U-阿拉伯糖-糖基化-数据处理完整版.xlsx,OD,51,21,18,234,0,0,0,0,0,0,0,0,0,0,0
+2025.12.12 β-Lg-IgG-U-阿拉伯糖-糖基化-数据处理完整版.xlsx,标曲,47,7,43,251,0,0,0,0,0,0,0,0,0,0,0
+2025.12.12 β-Lg-IgG-U-阿拉伯糖-糖基化-数据处理完整版.xlsx,数据处理,64,18,58,616,0,0,0,0,0,0,0,4,0,0,0
+2025.12.12 β-Lg-IgG-U-阿拉伯糖-糖基化-数据处理完整版.xlsx,数据选择,46,18,41,408,0,0,0,0,0,0,0,4,0,0,0
+2026.1.21 β-Lg-糖基化-致敏.xlsx,原始数据,21,21,18,360,0,0,0,0,0,0,0,0,0,0,0
+2026.1.21 β-Lg-糖基化-致敏.xlsx,标曲,34,13,31,163,0,0,0,0,0,0,0,0,0,0,0
+2026.1.21 β-Lg-糖基化-致敏.xlsx,数据处理,44,30,38,913,0,0,0,0,0,0,0,0,0,0,0
+2026.1.21 β-Lg-糖基化-致敏.xlsx,数据整理,33,30,28,349,0,0,0,0,0,0,0,2,0,4,4
+2026.3.19-单糖二糖-糖基化-数据整理.xlsx,Sheet1,56,14,56,291,9,10,9,9,9,9,9,2,7,6,6
+2026.3.20-RPBG-4h-糖基化.xlsx,原始数据,19,19,18,324,0,0,0,0,0,0,0,0,0,0,0
+2026.3.20-RPBG-4h-糖基化.xlsx,标曲,39,6,34,131,0,0,0,0,0,0,0,0,0,0,0
+2026.3.20-RPBG-4h-糖基化.xlsx,数据处理,60,14,54,645,0,0,0,0,0,0,0,0,0,0,0
+2026.3.20-RPBG-4h-糖基化.xlsx,挑选,62,14,42,392,0,4,0,0,0,0,0,0,0,2,0
+ELISA-2026.6.15.xlsx,Sheet1,9,4,9,34,1,8,0,0,0,0,0,3,2,2,0
+filled_run_mapping_results.xlsx,Filled_Run_Matrix,26,17,25,333,4,18,0,0,0,0,0,52,5,7,4
+filled_run_mapping_results.xlsx,Coverage_Summary,10,2,9,13,1,2,0,0,0,0,0,3,2,2,2
+filled_run_mapping_results.xlsx,Source_Extracts,21,9,20,164,8,18,0,0,0,0,0,19,4,8,4
+filled_run_mapping_results_v2.xlsx,Filled_Run_Matrix,26,17,25,333,4,18,0,0,0,0,0,52,5,7,4
+filled_run_mapping_results_v2.xlsx,Coverage_Summary,12,2,10,15,1,2,0,0,0,0,0,4,2,3,3
+filled_run_mapping_results_v2.xlsx,Source_Extracts,21,9,20,164,8,18,0,0,0,0,0,19,4,8,4
+filled_run_mapping_results_v2.xlsx,Additional_Supplement,20,15,17,145,6,6,0,0,0,0,0,28,1,8,17
+filled_run_mapping_results_v3.xlsx,Abbreviation_Legend,19,2,16,31,0,0,0,0,0,0,0,3,0,2,0
+filled_run_mapping_results_v3.xlsx,Filled_Run_Matrix,26,17,25,333,4,26,0,0,0,0,0,53,5,10,4
+filled_run_mapping_results_v3.xlsx,Coverage_Summary,12,2,10,15,0,1,0,0,0,0,0,3,0,2,1
+filled_run_mapping_results_v3.xlsx,Source_Extracts,21,9,20,164,8,18,0,0,0,0,0,19,4,8,4
+filled_run_mapping_results_v3.xlsx,Additional_Supplement,20,15,17,145,6,6,0,0,0,0,0,28,1,8,17

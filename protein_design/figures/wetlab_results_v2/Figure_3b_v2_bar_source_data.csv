@@ -1,0 +1,13 @@
+﻿block,donor,condition,run_id,reduction_pct,error_pct,status
+No-sugar controls,No sugar,"55 C, 2 h",R21,15.47,4.79,available
+No-sugar controls,No sugar,"55 C, 3 h",R22,20.15,3.71,available
+No-sugar controls,No sugar,"55 C, 4 h",R23,25.94,3.13,available
+No-sugar controls,No sugar,"60 C, 4 h",R24,35.97,1.63,available
+Hexose anchors,Lactose,"60 C, 2 h",R13,81.52,2.29,available
+Hexose anchors,Glucose,"60 C, 2 h",R14,70.02,3.31,available
+Hexose anchors,Lactose,"55 C, 3 h",R15,61.63,1.1,available
+Hexose anchors,Glucose,"55 C, 3 h",R16,70.99,1.99,available
+Pentose branch,Arabinose,"55 C, 2 h",R17,67.5,2.73,available
+Pentose branch,Ribose,"55 C, 2 h",R19,71.19,1.67,available
+Pentose branch,Arabinose,"55 C, 3 h",R18,74.98,1.41,available
+Pentose branch,Ribose,"55 C, 3 h",R20,79.04,0.36,available

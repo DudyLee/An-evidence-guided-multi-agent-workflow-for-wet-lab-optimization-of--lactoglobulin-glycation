@@ -1,0 +1,31 @@
+phase,contributor,words,phase_pct
+team_selection,Human Researcher,588,15.7980
+team_selection,Principal Investigator,3134,84.2020
+team_selection,Maillard Reaction Chemistry and Process Scientist,0,0.0000
+team_selection,Allergenicity and Immunoassay Interpretation Scientist,0,0.0000
+team_selection,Experimental Design and Evidence Synthesis Scientist,0,0.0000
+team_selection,Scientific Critic,0,0.0000
+project_specification,Human Researcher,501,0.3901
+project_specification,Principal Investigator,62448,48.6306
+project_specification,Maillard Reaction Chemistry and Process Scientist,15338,11.9443
+project_specification,Allergenicity and Immunoassay Interpretation Scientist,22702,17.6789
+project_specification,Experimental Design and Evidence Synthesis Scientist,20062,15.6230
+project_specification,Scientific Critic,7362,5.7331
+tools_selection,Human Researcher,241,0.1923
+tools_selection,Principal Investigator,55504,44.2824
+tools_selection,Maillard Reaction Chemistry and Process Scientist,18160,14.4885
+tools_selection,Allergenicity and Immunoassay Interpretation Scientist,21972,17.5298
+tools_selection,Experimental Design and Evidence Synthesis Scientist,19416,15.4905
+tools_selection,Scientific Critic,10048,8.0165
+execution_planning,Human Researcher,553,0.3740
+execution_planning,Principal Investigator,76430,51.6918
+execution_planning,Maillard Reaction Chemistry and Process Scientist,16212,10.9646
+execution_planning,Allergenicity and Immunoassay Interpretation Scientist,18306,12.3809
+execution_planning,Experimental Design and Evidence Synthesis Scientist,24200,16.3672
+execution_planning,Scientific Critic,12156,8.2215
+iteration1_discussion,Human Researcher,263,0.2085
+iteration1_discussion,Principal Investigator,49190,39.0028
+iteration1_discussion,Maillard Reaction Chemistry and Process Scientist,16202,12.8466
+iteration1_discussion,Allergenicity and Immunoassay Interpretation Scientist,22826,18.0988
+iteration1_discussion,Experimental Design and Evidence Synthesis Scientist,29474,23.3700
+iteration1_discussion,Scientific Critic,8164,6.4733

@@ -1,0 +1,9 @@
+﻿time_h,reduction_pct,error_pct,series,condition,range_low,range_high
+3.0,70.98502190606288,1.991127032460866,glucose_55C_plusUS_marginal_evidence,"glucose, 55 C, +US",,
+6.0,78.75409886124362,0.8403859012884294,glucose_55C_plusUS_marginal_evidence,"glucose, 55 C, +US",,
+9.0,82.50299416902756,0.7290165857151031,glucose_55C_plusUS_marginal_evidence,"glucose, 55 C, +US",,
+12.0,84.33235189996289,0.4737813061260852,glucose_55C_plusUS_marginal_evidence,"glucose, 55 C, +US",,
+18.0,87.90990828549101,0.15751420788006468,glucose_55C_plusUS_marginal_evidence,"glucose, 55 C, +US",,
+24.0,90.8149215904241,0.7518963484933922,glucose_55C_plusUS_marginal_evidence,"glucose, 55 C, +US",,
+4.0,86.0,,agent_prediction,"ribose, 60 C, +US",82.0,93.0
+4.0,85.6,1.7000000000000002,wetlab_validation,"ribose, 60 C, +US",,

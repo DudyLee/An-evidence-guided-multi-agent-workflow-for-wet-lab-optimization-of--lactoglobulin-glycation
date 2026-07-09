@@ -1,0 +1,26 @@
+﻿donor,condition,run_id,reduction_pct,error_pct,status
+No sugar,"55 C, 2 h",R21,15.47,4.79,available
+Lactose,"55 C, 2 h",,,,not in planned matrix
+Glucose,"55 C, 2 h",,,,not in planned matrix
+Arabinose,"55 C, 2 h",R17,67.5,2.73,available
+Ribose,"55 C, 2 h",R19,71.19,1.67,available
+No sugar,"55 C, 3 h",R22,20.15,3.71,available
+Lactose,"55 C, 3 h",R15,61.63,1.1,available
+Glucose,"55 C, 3 h",R16,70.99,1.99,available
+Arabinose,"55 C, 3 h",R18,74.98,1.41,available
+Ribose,"55 C, 3 h",R20,79.04,0.36,available
+No sugar,"55 C, 4 h",R23,25.94,3.13,available
+Lactose,"55 C, 4 h",R01,51.66,0.81,available
+Glucose,"55 C, 4 h",R02,59.91,2.62,available
+Arabinose,"55 C, 4 h",,,,not in planned matrix
+Ribose,"55 C, 4 h",,,,not in planned matrix
+No sugar,"60 C, 2 h",,,,not in planned matrix
+Lactose,"60 C, 2 h",R13,81.52,2.29,available
+Glucose,"60 C, 2 h",R14,70.02,3.31,available
+Arabinose,"60 C, 2 h",,,,not in planned matrix
+Ribose,"60 C, 2 h",,,,not in planned matrix
+No sugar,"60 C, 4 h",R24,35.97,1.63,available
+Lactose,"60 C, 4 h",R05,56.59,2.57,available
+Glucose,"60 C, 4 h",R06,60.15,1.52,available
+Arabinose,"60 C, 4 h",,,,not in planned matrix
+Ribose,"60 C, 4 h",,,,not in planned matrix

@@ -1,0 +1,15 @@
+INPUT: data\paper_data\Paper_run_data.jsonl
+OUTPUT: data\paper_data\Paper_run_data.computed.jsonl
+TOTAL_RECORDS: 350
+IN_ALREADY_NUMERIC: 68
+IN_ALREADY_NONNULL_NONNUMERIC: 0
+FILLED_NEW_NUMERIC: 86
+OUTPUT_STILL_NULL: 196
+NOT_COMPUTABLE: 196
+
+INFERRED_FORMULA_GLOBAL: rel_control
+INFERRED_FORMULAS_BY_UNIT: {'μg/mL': 'rel_control'}
+INFERRED_FORMULAS_BY_(unit,metric,direction): 1
+
+FILLED_BY_FORMULA: {'rel_control': 86}
+FILLED_BY_CONTROL_SOURCE: {'control_value': 86}
