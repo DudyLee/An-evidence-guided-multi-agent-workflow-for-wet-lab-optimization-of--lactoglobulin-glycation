@@ -48,8 +48,8 @@ def run_meeting(
     temperature: float = CONSISTENT_TEMPERATURE,
     pubmed_search: bool = False,
     return_summary: bool = False,
-    api_delay: float = 1.0,  # 新增参数：API调用间延时（秒）
-    tool_choice: str | dict | None = None,  # 新增参数：强制工具选择
+    api_delay: float = 1.0,
+    tool_choice: str | dict | None = None,
 ) -> str:
     """Runs a meeting using the Responses API instead of Assistants.
 
@@ -139,7 +139,7 @@ def run_meeting(
                         },
                     }
                 )
-            # 记录工具实体用于实际调用
+            # Store the callable tool for execution.
             if hasattr(tool, "metadata"):
                 all_tools_map[tool.metadata.name] = tool
 
@@ -209,7 +209,7 @@ def run_meeting(
                 query_input = args_dict.get("input", args_dict.get("query", ""))
                 try:
                     output_text = str(tool_obj(query_input))
-                except Exception as e:  # 保底不让会议中断
+                except Exception as e:
                     output_text = f"Error running tool {tool_name}: {e}"
             else:
                 output_text = f"Error: Unknown tool '{tool_name}'"
@@ -259,7 +259,7 @@ def run_meeting(
         response = _create_response()
         text, tool_calls = extract_text_and_tools(response)
 
-        # Handle tool calls (single round of tool execution is enough for当前流程)
+        # Handle tool calls; one execution round is sufficient for this workflow.
         if tool_calls:
             tool_outputs = run_tool_calls(tool_calls)
             tool_token_count += sum(count_tokens(t["output"]) for t in tool_outputs)

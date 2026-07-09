@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import csv
 import os
@@ -8,11 +8,10 @@ import pandas as pd
 
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-RESULT_ROOT = Path(
-    os.environ.get("GLYCATION_RAW_WORKBOOK_DIR", REPO_ROOT / "data" / "raw_wetlab_workbooks")
-)
+RAW_WORKBOOK_DIR = os.environ.get("GLYCATION_RAW_WORKBOOK_DIR")
+RESULT_ROOT = Path(RAW_WORKBOOK_DIR) if RAW_WORKBOOK_DIR else None
 OUTPUT_DIR = REPO_ROOT / "protein_design" / "tables" / "wetlab_runsheet"
-SUPPLEMENTAL_ELISA = RESULT_ROOT / "ELISA-2026.6.15.xlsx"
+SUPPLEMENTAL_ELISA = RESULT_ROOT / "ELISA-2026.6.15.xlsx" if RESULT_ROOT else None
 
 COMMON_MODE = "dry"
 COMMON_AW = "0.79"
@@ -31,8 +30,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 51.66,
         "error_pct": 0.81,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; lactose 55 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; lactose 55 C 4 h +US",
         "sample_label": "lactose 55 C 4 h +US",
         "figure_panel": "Fig. 3a",
         "note": "Direct match to the planned 24-run condition.",
@@ -48,8 +47,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 59.91,
         "error_pct": 2.62,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; glucose 55 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; glucose 55 C 4 h +US",
         "sample_label": "glucose 55 C 4 h +US",
         "figure_panel": "Fig. 3a",
         "note": "Direct match to the planned 24-run condition.",
@@ -65,8 +64,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 59.59,
         "error_pct": 2.33,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; galactose 55 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; galactose 55 C 4 h +US",
         "sample_label": "galactose 55 C 4 h +US",
         "figure_panel": "Fig. 3a",
         "note": "Direct match to the planned 24-run condition.",
@@ -82,8 +81,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 65.40,
         "error_pct": 1.76,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; mannose 55 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; mannose 55 C 4 h +US",
         "sample_label": "mannose 55 C 4 h +US",
         "figure_panel": "Fig. 3a",
         "note": "Direct match to the planned 24-run condition.",
@@ -99,8 +98,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 56.59,
         "error_pct": 2.57,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; lactose 60 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; lactose 60 C 4 h +US",
         "sample_label": "lactose 60 C 4 h +US",
         "figure_panel": "Fig. 3a",
         "note": "Direct match to the planned 24-run condition.",
@@ -116,8 +115,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 60.15,
         "error_pct": 1.52,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; glucose 60 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; glucose 60 C 4 h +US",
         "sample_label": "glucose 60 C 4 h +US",
         "figure_panel": "Fig. 3a",
         "note": "Direct match to the planned 24-run condition.",
@@ -133,8 +132,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 61.31,
         "error_pct": 2.99,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; galactose 60 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; galactose 60 C 4 h +US",
         "sample_label": "galactose 60 C 4 h +US",
         "figure_panel": "Fig. 3a",
         "note": "Direct match to the planned 24-run condition.",
@@ -150,8 +149,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 68.15,
         "error_pct": 0.69,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; mannose 60 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; mannose 60 C 4 h +US",
         "sample_label": "mannose 60 C 4 h +US",
         "figure_panel": "Fig. 3a",
         "note": "Direct match to the planned 24-run condition.",
@@ -167,8 +166,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 81.52,
         "error_pct": 2.29,
         "source_workbook": "dry_2h_allergenicity_2026-01-21",
-        "source_file": "2026.1.21 尾-Lg-绯栧熀鍖?鑷存晱.xlsx",
-        "source_sheet_or_label": "鏁版嵁鏁寸悊; lactose 60 C 2 h +US",
+        "source_file": "dry_2h_allergenicity_2026-01-21.xlsx",
+        "source_sheet_or_label": "organized data; lactose 60 C 2 h +US",
         "sample_label": "lactose 60 C 2 h +US",
         "figure_panel": "Fig. 3b",
         "note": "Source table does not print temperature; user confirmed the condition matches.",
@@ -184,8 +183,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 70.02,
         "error_pct": 3.31,
         "source_workbook": "dry_2h_allergenicity_2026-01-21",
-        "source_file": "2026.1.21 尾-Lg-绯栧熀鍖?鑷存晱.xlsx",
-        "source_sheet_or_label": "鏁版嵁鏁寸悊; glucose 60 C 2 h +US",
+        "source_file": "dry_2h_allergenicity_2026-01-21.xlsx",
+        "source_sheet_or_label": "organized data; glucose 60 C 2 h +US",
         "sample_label": "glucose 60 C 2 h +US",
         "figure_panel": "Fig. 3b",
         "note": "Source table does not print temperature; user confirmed the condition matches.",
@@ -201,7 +200,7 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 61.63,
         "error_pct": 1.10,
         "source_workbook": "timecourse_2026-03-19",
-        "source_file": "2026.3.19-鍗曠硸浜岀硸-绯栧熀鍖?鏁版嵁鏁寸悊.xlsx",
+        "source_file": "timecourse_2026-03-19.xlsx",
         "source_sheet_or_label": "Sheet1; lactose 55 C 3 h +US",
         "sample_label": "lactose 55 C 3 h +US",
         "figure_panel": "Fig. 3b",
@@ -218,7 +217,7 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 70.99,
         "error_pct": 1.99,
         "source_workbook": "timecourse_2026-03-19",
-        "source_file": "2026.3.19-鍗曠硸浜岀硸-绯栧熀鍖?鏁版嵁鏁寸悊.xlsx",
+        "source_file": "timecourse_2026-03-19.xlsx",
         "source_sheet_or_label": "Sheet1; glucose 55 C 3 h +US",
         "sample_label": "glucose 55 C 3 h +US",
         "figure_panel": "Fig. 3b",
@@ -235,8 +234,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 67.50,
         "error_pct": 2.73,
         "source_workbook": "dry_2h_allergenicity_2026-01-21",
-        "source_file": "2026.1.21 尾-Lg-绯栧熀鍖?鑷存晱.xlsx",
-        "source_sheet_or_label": "鏁版嵁鏁寸悊; arabinose 55 C 2 h +US",
+        "source_file": "dry_2h_allergenicity_2026-01-21.xlsx",
+        "source_sheet_or_label": "organized data; arabinose 55 C 2 h +US",
         "sample_label": "arabinose 55 C 2 h +US",
         "figure_panel": "Fig. 3b",
         "note": "Source table does not print temperature; user confirmed the condition matches.",
@@ -252,7 +251,7 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 74.98,
         "error_pct": 1.41,
         "source_workbook": "timecourse_2026-03-19",
-        "source_file": "2026.3.19-鍗曠硸浜岀硸-绯栧熀鍖?鏁版嵁鏁寸悊.xlsx",
+        "source_file": "timecourse_2026-03-19.xlsx",
         "source_sheet_or_label": "Sheet1; arabinose 55 C 3 h +US",
         "sample_label": "arabinose 55 C 3 h +US",
         "figure_panel": "Fig. 3b",
@@ -269,7 +268,7 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 79.04,
         "error_pct": 0.36,
         "source_workbook": "timecourse_2026-03-19",
-        "source_file": "2026.3.19-鍗曠硸浜岀硸-绯栧熀鍖?鏁版嵁鏁寸悊.xlsx",
+        "source_file": "timecourse_2026-03-19.xlsx",
         "source_sheet_or_label": "Sheet1; ribose 55 C 3 h +US",
         "sample_label": "ribose 55 C 3 h +US",
         "figure_panel": "Fig. 3b",
@@ -286,8 +285,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 25.94,
         "error_pct": 3.13,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; no sugar 55 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; no sugar 55 C 4 h +US",
         "sample_label": "no sugar 55 C 4 h +US",
         "figure_panel": "Fig. 3b",
         "note": "Direct match to the planned 24-run condition.",
@@ -303,8 +302,8 @@ BASE_RUNS: list[dict[str, object]] = [
         "reduction_pct_vs_untreated_N": 35.97,
         "error_pct": 1.63,
         "source_workbook": "RPBG_4h_2026-03-20",
-        "source_file": "2026.3.20-RPBG-4h-绯栧熀鍖?xlsx",
-        "source_sheet_or_label": "鏁版嵁澶勭悊; no sugar 60 C 4 h +US",
+        "source_file": "RPBG_4h_2026-03-20.xlsx",
+        "source_sheet_or_label": "processed data; no sugar 60 C 4 h +US",
         "sample_label": "no sugar 60 C 4 h +US",
         "figure_panel": "Fig. 3b",
         "note": "Direct match to the planned 24-run condition.",
@@ -313,7 +312,7 @@ BASE_RUNS: list[dict[str, object]] = [
 
 
 SUPPLEMENTAL_LABELS: dict[str, dict[str, object]] = {
-    "涔崇硸-4h": {
+    "lactose-4h": {
         "run_id": "R09",
         "decision_block": "hexose no-ultrasound sentinel",
         "donor": "lactose",
@@ -324,7 +323,7 @@ SUPPLEMENTAL_LABELS: dict[str, dict[str, object]] = {
         "figure_panel": "Fig. 3a",
         "note": "Supplemented from ELISA-2026.6.15.xlsx; user confirmed this label denotes the no-ultrasound 55 C 4 h sentinel.",
     },
-    "钁¤悇绯?4h": {
+    "glucose-4h": {
         "run_id": "R10",
         "decision_block": "hexose no-ultrasound sentinel",
         "donor": "glucose",
@@ -335,7 +334,7 @@ SUPPLEMENTAL_LABELS: dict[str, dict[str, object]] = {
         "figure_panel": "Fig. 3a",
         "note": "Supplemented from ELISA-2026.6.15.xlsx; user confirmed this label denotes the no-ultrasound 55 C 4 h sentinel.",
     },
-    "鍗婁钩绯?4h": {
+    "galactose-4h": {
         "run_id": "R11",
         "decision_block": "hexose no-ultrasound sentinel",
         "donor": "galactose",
@@ -346,7 +345,7 @@ SUPPLEMENTAL_LABELS: dict[str, dict[str, object]] = {
         "figure_panel": "Fig. 3a",
         "note": "Supplemented from ELISA-2026.6.15.xlsx; user confirmed this label denotes the no-ultrasound 55 C 4 h sentinel.",
     },
-    "鐢橀湶绯?4h": {
+    "mannose-4h": {
         "run_id": "R12",
         "decision_block": "hexose no-ultrasound sentinel",
         "donor": "mannose",
@@ -357,7 +356,7 @@ SUPPLEMENTAL_LABELS: dict[str, dict[str, object]] = {
         "figure_panel": "Fig. 3a",
         "note": "Supplemented from ELISA-2026.6.15.xlsx; user confirmed this label denotes the no-ultrasound 55 C 4 h sentinel.",
     },
-    "鏍哥硸-U-2h": {
+    "ribose-U-2h": {
         "run_id": "R19",
         "decision_block": "pentose branch",
         "donor": "ribose",
@@ -394,6 +393,11 @@ SUPPLEMENTAL_LABELS: dict[str, dict[str, object]] = {
 
 
 def read_supplemental_rows() -> list[dict[str, object]]:
+    if SUPPLEMENTAL_ELISA is None:
+        raise RuntimeError(
+            "This legacy table builder requires the original raw wet-lab "
+            "workbooks. Set GLYCATION_RAW_WORKBOOK_DIR before running it."
+        )
     df = pd.read_excel(SUPPLEMENTAL_ELISA, sheet_name="Sheet1", header=None)
     native_row = df[df.iloc[:, 1].eq("N")].iloc[0]
     native_value = float(native_row.iloc[2])

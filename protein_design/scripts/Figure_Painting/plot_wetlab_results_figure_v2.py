@@ -18,9 +18,8 @@ from figure_palette import GRID, INK, MUTED, PALETTE, blend
 
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-RESULT_ROOT = Path(
-    os.environ.get("GLYCATION_RAW_WORKBOOK_DIR", REPO_ROOT / "data" / "raw_wetlab_workbooks")
-)
+RAW_WORKBOOK_DIR = os.environ.get("GLYCATION_RAW_WORKBOOK_DIR")
+RESULT_ROOT = Path(RAW_WORKBOOK_DIR) if RAW_WORKBOOK_DIR else None
 FORMAL_MAPPING = (
     REPO_ROOT
     / "protein_design"
@@ -28,11 +27,17 @@ FORMAL_MAPPING = (
     / "wetlab_runsheet"
     / "formal_17_run_result_mapping.csv"
 )
-SOURCE_MAPPING = RESULT_ROOT / "filled_run_mapping_results_v3.xlsx"
+SOURCE_MAPPING = RESULT_ROOT / "filled_run_mapping_results_v3.xlsx" if RESULT_ROOT else None
 TIMECOURSE_WORKBOOK = (
     RESULT_ROOT / "2026.3.19-\u5355\u7cd6\u4e8c\u7cd6-\u7cd6\u57fa\u5316-\u6570\u636e\u6574\u7406.xlsx"
+    if RESULT_ROOT
+    else None
 )
-TWO_HOUR_WORKBOOK = RESULT_ROOT / "2026.1.21 \u03b2-Lg-\u7cd6\u57fa\u5316-\u81f4\u654f.xlsx"
+TWO_HOUR_WORKBOOK = (
+    RESULT_ROOT / "2026.1.21 \u03b2-Lg-\u7cd6\u57fa\u5316-\u81f4\u654f.xlsx"
+    if RESULT_ROOT
+    else None
+)
 DEFAULT_OUTPUT_DIR = REPO_ROOT / "protein_design" / "figures" / "wetlab_results_v2"
 
 COLORS = {
@@ -75,8 +80,17 @@ def read_table(path: Path, sheet: str, header_label: str) -> pd.DataFrame:
     raise ValueError(f"Could not find header {header_label!r} in {path.name}:{sheet}")
 
 
+def require_raw_workbook(path: Path | None, label: str) -> Path:
+    if path is None:
+        raise RuntimeError(
+            f"{label} requires the original raw wet-lab workbooks. "
+            "Set GLYCATION_RAW_WORKBOOK_DIR before running this legacy script."
+        )
+    return path
+
+
 def source_error_lookup() -> dict[tuple[str, int, float, str], float]:
-    source = read_table(SOURCE_MAPPING, "Source_Extracts", "source_file")
+    source = read_table(require_raw_workbook(SOURCE_MAPPING, "source_error_lookup"), "Source_Extracts", "source_file")
     lookup: dict[tuple[str, int, float, str], float] = {}
     for _, row in source.iterrows():
         source_file = str(row["source_file"])
@@ -95,7 +109,11 @@ def source_error_lookup() -> dict[tuple[str, int, float, str], float]:
             continue
         lookup[(donor, temp, time_h, ultrasound)] = error / baseline * 100
 
-    two_hour = pd.read_excel(TWO_HOUR_WORKBOOK, sheet_name="\u6570\u636e\u6574\u7406", header=None)
+    two_hour = pd.read_excel(
+        require_raw_workbook(TWO_HOUR_WORKBOOK, "source_error_lookup"),
+        sheet_name="\u6570\u636e\u6574\u7406",
+        header=None,
+    )
     baseline = float(two_hour.iloc[4, 1])
     rows = {
         ("arabinose", 55, 2.0, "+US"): 21,
@@ -298,7 +316,11 @@ def plot_panel_b(df: pd.DataFrame, output_dir: Path, scale: int = 2) -> list[Pat
 
 
 def extract_glucose_timecourse() -> tuple[pd.DataFrame, float]:
-    raw = pd.read_excel(TIMECOURSE_WORKBOOK, sheet_name="Sheet1", header=None)
+    raw = pd.read_excel(
+        require_raw_workbook(TIMECOURSE_WORKBOOK, "extract_glucose_timecourse"),
+        sheet_name="Sheet1",
+        header=None,
+    )
     baseline = float(raw.iloc[1, 1])
     rows = []
     for idx in range(2, len(raw)):

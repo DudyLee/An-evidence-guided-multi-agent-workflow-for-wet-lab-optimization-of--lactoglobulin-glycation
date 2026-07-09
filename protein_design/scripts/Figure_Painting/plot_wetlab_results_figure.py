@@ -13,11 +13,14 @@ from reportlab.pdfgen import canvas
 
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-RESULT_ROOT = Path(
-    os.environ.get("GLYCATION_RAW_WORKBOOK_DIR", REPO_ROOT / "data" / "raw_wetlab_workbooks")
+RAW_WORKBOOK_DIR = os.environ.get("GLYCATION_RAW_WORKBOOK_DIR")
+RESULT_ROOT = Path(RAW_WORKBOOK_DIR) if RAW_WORKBOOK_DIR else None
+DEFAULT_MAPPING = RESULT_ROOT / "filled_run_mapping_results_v3.xlsx" if RESULT_ROOT else None
+DEFAULT_TIMECOURSE = (
+    RESULT_ROOT / "2026.3.19-\u5355\u7cd6\u4e8c\u7cd6-\u7cd6\u57fa\u5316-\u6570\u636e\u6574\u7406.xlsx"
+    if RESULT_ROOT
+    else None
 )
-DEFAULT_MAPPING = RESULT_ROOT / "filled_run_mapping_results_v3.xlsx"
-DEFAULT_TIMECOURSE = RESULT_ROOT / "2026.3.19-\u5355\u7cd6\u4e8c\u7cd6-\u7cd6\u57fa\u5316-\u6570\u636e\u6574\u7406.xlsx"
 DEFAULT_OUTPUT_DIR = REPO_ROOT / "protein_design" / "figures" / "wetlab_results"
 
 DONOR_LABELS = {
@@ -658,6 +661,11 @@ def main() -> None:
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--basename", default="wetlab_results_figure")
     args = parser.parse_args()
+    if args.mapping is None or args.timecourse is None:
+        parser.error(
+            "This legacy plotting script requires the original raw wet-lab workbooks. "
+            "Set GLYCATION_RAW_WORKBOOK_DIR or pass --mapping and --timecourse explicitly."
+        )
 
     bridge = extract_bridge(args.mapping)
     three_hour = extract_three_hour(args.mapping)

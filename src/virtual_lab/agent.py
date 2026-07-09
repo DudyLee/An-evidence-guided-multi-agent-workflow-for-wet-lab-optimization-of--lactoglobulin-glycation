@@ -18,7 +18,7 @@ class Agent:
         self.goal = goal
         self.role = role
         self.model = model
-        self.tools = tools or []  # 确保 self.tools 总是一个列表
+        self.tools = tools or []
 
 
     @property

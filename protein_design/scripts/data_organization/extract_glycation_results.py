@@ -10,9 +10,8 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[3]
-SOURCE_DIR = Path(
-    os.environ.get("GLYCATION_RAW_WORKBOOK_DIR", ROOT / "data" / "raw_wetlab_workbooks")
-)
+RAW_WORKBOOK_DIR = os.environ.get("GLYCATION_RAW_WORKBOOK_DIR")
+SOURCE_DIR = Path(RAW_WORKBOOK_DIR) if RAW_WORKBOOK_DIR else None
 OUT_DIR = ROOT / "protein_design" / "tables" / "glycation_results_organized"
 
 TIMECOURSE_FILE = "2026.3.19-\u5355\u7cd6\u4e8c\u7cd6-\u7cd6\u57fa\u5316-\u6570\u636e\u6574\u7406.xlsx"
@@ -91,6 +90,11 @@ def workbook_role(file_name):
 
 
 def scan_workbooks():
+    if SOURCE_DIR is None:
+        raise RuntimeError(
+            "This legacy extraction script requires the original raw wet-lab "
+            "workbooks. Set GLYCATION_RAW_WORKBOOK_DIR before running it."
+        )
     files = sorted(
         [p for p in SOURCE_DIR.iterdir() if p.suffix.lower() in {".xlsx", ".xlsm"}],
         key=lambda p: p.name.lower(),
@@ -190,6 +194,11 @@ def scan_workbooks():
 
 
 def extract_timecourse():
+    if SOURCE_DIR is None:
+        raise RuntimeError(
+            "extract_timecourse requires GLYCATION_RAW_WORKBOOK_DIR to point to "
+            "the original raw wet-lab workbooks."
+        )
     path = SOURCE_DIR / TIMECOURSE_FILE
     wb = load_workbook(path, data_only=True, read_only=True)
     ws = wb["Sheet1"]
@@ -271,6 +280,11 @@ def extract_timecourse():
 
 
 def extract_elisa_0615():
+    if SOURCE_DIR is None:
+        raise RuntimeError(
+            "extract_elisa_0615 requires GLYCATION_RAW_WORKBOOK_DIR to point to "
+            "the original raw wet-lab workbooks."
+        )
     path = SOURCE_DIR / ELISA_0615_FILE
     wb = load_workbook(path, data_only=True, read_only=True)
     ws = wb["Sheet1"]
@@ -377,7 +391,7 @@ def main():
 
     payload = {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "source_dir": str(SOURCE_DIR),
+        "source_dir": str(SOURCE_DIR) if SOURCE_DIR else None,
         "out_dir": str(OUT_DIR),
         "datasets": datasets,
         "summary": {

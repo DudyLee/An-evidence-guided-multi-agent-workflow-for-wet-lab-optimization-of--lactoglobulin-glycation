@@ -42,6 +42,5 @@ review package supports the beta-lactoglobulin glycation manuscript only.
 
 ## Oversized local inspection artifacts
 
-`glycation_results_organized_2026-06-26.xlsx.inspect.ndjson` was excluded as a
-large local inspection dump. The organized workbook, payload JSON, raw cell index
-and processed CSV exports are included.
+Large local workbook-inspection dumps were excluded. The payload JSON,
+cell-level index and processed CSV exports are included.

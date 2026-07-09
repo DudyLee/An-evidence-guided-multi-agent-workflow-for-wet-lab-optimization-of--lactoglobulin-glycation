@@ -1,12 +1,12 @@
-﻿item,content,source,note
+item,content,source,note
 Main Fig. 3a,R01-R12 matched 4 h hexose bridge and no-ultrasound sentinels,formal_24_run_result_mapping.csv / Figure_3_v2_source_data.csv,
 Main Fig. 3b,"R13-R24 short-window anchors, pentose branch and no-sugar process controls",formal_24_run_result_mapping.csv / Figure_3_v2_source_data.csv,
 Main Fig. 3c left,glucose 55 C +US marginal-gain time course,Figure_3c_v2_source_data.csv and 2026.3.19 workbook,
 Main Fig. 3c right,agent estimate versus ribose 60 C 4 h +US wet-lab validation,Figure_3c_v2_source_data.csv and 2026.3.19 workbook,
-Candidate Supplementary Fig. 1,complete donor-time panel with no-US and +US arms,2026.3.19-单糖二糖-糖基化-数据整理.xlsx,
+Candidate Supplementary Fig. 1,complete donor-time panel with no-US and +US arms,timecourse_2026-03-19.xlsx,
 Supplementary Tables 3-5,complete R01-R24 condition/result audit and wet-lab values,formal_24_run_result_mapping.csv / Supplementary_Data_3_24_run_result_matrix.xlsx,
 Supplementary Data 4,raw and processed glycation/ELISA data package,all Excel workbooks in glycation result folder,
-24-run source contribution,3 planned run(s) mapped to this source file,2026.1.21 β-Lg-糖基化-致敏.xlsx,2 h dry glycation benchmark/pentose support used in the run matrix
-24-run source contribution,4 planned run(s) mapped to this source file,2026.3.19-单糖二糖-糖基化-数据整理.xlsx,long donor-time ultrasound/no-ultrasound panel and ribose 4 h validation point
-24-run source contribution,10 planned run(s) mapped to this source file,2026.3.20-RPBG-4h-糖基化.xlsx,4 h hexose bridge and no-sugar controls for Fig. 3a/3b
+24-run source contribution,3 planned run(s) mapped to this source file,dry_2h_allergenicity_2026-01-21.xlsx,2 h dry glycation benchmark/pentose support used in the run matrix
+24-run source contribution,4 planned run(s) mapped to this source file,timecourse_2026-03-19.xlsx,long donor-time ultrasound/no-ultrasound panel and ribose 4 h validation point
+24-run source contribution,10 planned run(s) mapped to this source file,RPBG_4h_2026-03-20.xlsx,4 h hexose bridge and no-sugar controls for Fig. 3a/3b
 24-run source contribution,7 planned run(s) mapped to this source file,ELISA-2026.6.15.xlsx,"supplemental ELISA records completing R09-R12, R19 and no-sugar controls"

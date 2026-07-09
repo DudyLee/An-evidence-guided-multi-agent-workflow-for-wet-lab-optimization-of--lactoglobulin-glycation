@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 const outDir = path.resolve(__dirname, "../../tables/glycation_results_organized");
 const payloadPath = path.join(outDir, "glycation_results_organized_payload.json");
-const outputPath = path.join(outDir, "glycation_results_organized_2026-06-26.xlsx");
+const outputPath = path.join(outDir, "glycation_results_organized_review.xlsx");
 const previewPath = path.join(outDir, "glycation_results_organized_preview.png");
 
 const payload = JSON.parse(await fs.readFile(payloadPath, "utf8"));
