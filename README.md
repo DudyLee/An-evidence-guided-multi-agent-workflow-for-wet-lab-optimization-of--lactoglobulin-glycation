@@ -24,7 +24,6 @@ paper PDFs, LaTeX build outputs and temporary rendering files are not included.
 | `protein_design/scripts/` | Analysis, data-organization, plotting and Source Data workbook scripts. | Code used to generate processed tables, plots and the Source Data workbook. |
 | `Knowledge_Extraction/` | Original web-interface literature extraction prompt, PDF-to-JSONL API reproduction script, deposited-output notes and reduction-fill audit script. | Structured evidence extraction workflow. |
 | `src/virtual_lab/` | Virtual Lab meeting framework code, including direct JSONL context builders for literature and wet-lab records. | Human-agent meeting workflow, role-specialized discussions and repository-backed evidence reading. |
-| `manuscript_context/` | Relevant manuscript/SI source excerpts used to choose this package scope. | Audit trail for repository inventory and data/code commitments. |
 
 ## Key data files
 
