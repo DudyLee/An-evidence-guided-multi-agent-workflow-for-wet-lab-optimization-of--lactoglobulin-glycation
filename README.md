@@ -67,17 +67,3 @@ The builder script is included at
 `protein_design/scripts/source_data_build/build_source_data_workbook.mjs` and
 has been adjusted to use package-relative paths. It requires Node.js and the
 `@oai/artifact-tool` workbook library used during manuscript preparation.
-
-## What was deliberately not included
-
-See `EXCLUDED_FILES.md` for the exclusion rationale. The main exclusions are
-copyright-restricted literature PDFs, vector-store caches containing paper text,
-local dependency folders, temporary build/rendering artifacts and unrelated
-nanobody-design project files.
-
-## Provenance
-
-This package was assembled from the active local code workspace, modular main
-manuscript workspace and supplementary-information workspace.
-
-The file `FILE_MANIFEST.tsv` lists the package contents after assembly.
